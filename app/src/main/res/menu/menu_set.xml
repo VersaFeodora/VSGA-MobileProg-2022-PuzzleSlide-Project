@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/shuffle_menu"
+                android:title="Shuffle"
+                />
+            <item
+                android:id="@+id/exit_game_menu"
+                android:title="Exit Game"
+                />
+        </menu>
+    </item>
+</menu>
